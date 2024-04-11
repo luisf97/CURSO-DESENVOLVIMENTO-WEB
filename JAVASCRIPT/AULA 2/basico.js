@@ -4,5 +4,3 @@
     operadores aritméticos, de atribução e incremento
     
 */
-
-// todo asdfaçjdfcjias
