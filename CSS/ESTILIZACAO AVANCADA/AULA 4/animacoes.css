@@ -1,0 +1,11 @@
+@keyframes example {
+    from {background-color: lightblue;}
+    to {background-color: lightgreen;}
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    animation-name: example;
+    animation-duration: 2s;
+}

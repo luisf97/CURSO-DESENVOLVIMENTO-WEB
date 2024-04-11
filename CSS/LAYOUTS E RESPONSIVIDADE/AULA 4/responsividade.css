@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 10px;
+}

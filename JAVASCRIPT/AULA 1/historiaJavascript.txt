@@ -1,0 +1,5 @@
+* Explicação sobre o que é JavaScript, sua importância e onde é usado.
+
+* Configuração do ambiente de desenvolvimento: editores de texto, navegadores, console do navegador.
+
+(Slides)

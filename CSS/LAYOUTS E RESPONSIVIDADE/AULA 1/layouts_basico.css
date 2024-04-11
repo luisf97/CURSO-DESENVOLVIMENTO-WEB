@@ -1,0 +1,11 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: lightblue;
+    margin: 10px;
+}
