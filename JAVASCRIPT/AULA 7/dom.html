@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação de DOM</title>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 5px;
+            padding: 5px;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <h2>Lista de Tarefas</h2>
+    <ul id="lista-tarefas">
+        <li>Tarefa 1</li>
+        <li>Tarefa 2</li>
+        <li>Tarefa 3</li>
+    </ul>
+    <input type="text" id="nova-tarefa" placeholder="Nova Tarefa">
+    <button onclick="adicionarTarefa()">Adicionar</button>
+
+    <script>
+        function adicionarTarefa() {
+            var input = document.getElementById("nova-tarefa");
+            var textoTarefa = input.value;
+
+            if (textoTarefa.trim() !== "") {
+                var lista = document.getElementById("lista-tarefas");
+                var novaTarefa = document.createElement("li");
+                novaTarefa.textContent = textoTarefa;
+                lista.appendChild(novaTarefa);
+                input.value = "";
+            } else {
+                alert("Por favor, insira o nome da tarefa.");
+            }
+        }
+    </script>
+</body>
+</html>
