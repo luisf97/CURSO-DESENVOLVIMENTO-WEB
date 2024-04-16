@@ -1,0 +1,69 @@
+/*
+    O posicionamento é um conceito chave em CSS que permite controlar a posição e o layout dos elementos HTML em 
+    uma página da web. Existem diferentes valores de posicionamento que você pode usar para determinar como os 
+    elementos são exibidos em relação aos seus elementos pai ou à janela de visualização. Aqui estão os principais 
+    valores de posicionamento e como eles funcionam:
+*/
+
+/*
+    1. Static (Estático):
+    Este é o valor padrão de posicionamento para todos os elementos. Os elementos com posicionamento estático são 
+    posicionados de acordo com o fluxo normal do documento. Eles não são afetados pelas propriedades top, right, 
+    bottom ou left, e não podem ser empilhados uns sobre os outros.
+*/
+
+.minha-classe {
+    position: static;
+}
+
+
+/*
+    Relative (Relativo):
+    Os elementos com posicionamento relativo são posicionados relativos à sua posição normal no fluxo do documento.
+     Isso significa que você pode mover o elemento usando as propriedades top, right, bottom e left, sem afetar o 
+     layout dos outros elementos ao redor.
+*/
+
+.minha-classe {
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+/*
+    3. Absolute (Absoluto):
+    Os elementos com posicionamento absoluto são removidos do fluxo normal do documento e posicionados em relação ao 
+    elemento pai mais próximo que tenha um posicionamento diferente de estático (ou seja, relativo, absoluto ou fixo). 
+    Se não houver um elemento pai com um posicionamento diferente de estático, eles serão posicionados em relação ao
+     elemento raiz (o <html>).
+*/
+
+.minha-classe {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+/*
+4. Fixed (Fixo):
+    Os elementos com posicionamento fixo são removidos do fluxo normal do documento e posicionados em relação à janela 
+    de visualização do navegador. Isso significa que eles permanecerão na mesma posição mesmo quando a página for rolada.
+*/
+
+.minha-classe {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+/*
+5. Sticky (Grudento):
+    Os elementos com posicionamento grudento são tratados como relativos até que eles atinjam uma determinada posição na 
+    janela de visualização (geralmente especificada com top, right, bottom ou left), após o que são tratados como elementos
+     fixos. Isso permite que um elemento grude à tela enquanto o usuário rola a página.
+*/
+
+.minha-classe {
+    position: sticky;
+    top: 0;
+}

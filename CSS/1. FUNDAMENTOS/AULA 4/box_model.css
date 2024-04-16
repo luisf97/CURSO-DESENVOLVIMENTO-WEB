@@ -1,0 +1,40 @@
+/*
+    O modelo de caixa (box model) é um conceito fundamental em CSS que descreve como os elementos HTML são renderizados visualmente no navegador. Ele define a estrutura básica de cada elemento como uma caixa retangular com quatro áreas principais: conteúdo, preenchimento (padding), borda e margem. Aqui está uma explicação detalhada de cada uma dessas partes:
+
+    1. Conteúdo (Content):
+    O conteúdo é a área dentro da caixa onde o conteúdo real do elemento, como texto, imagens, vídeos, etc., é exibido.
+
+    2. Preenchimento (Padding):
+    O preenchimento é a área entre o conteúdo e a borda. Ele fornece espaço extra dentro da caixa para separar o conteúdo da borda. O preenchimento é controlado pela propriedade padding.
+
+    3. Borda (Border):
+    A borda é a linha que circunda a caixa e separa o conteúdo e o preenchimento da margem. Ela é controlada pela propriedade border e pode ter diferentes estilos, larguras e cores.
+
+    4. Margem (Margin):
+    A margem é a área fora da caixa que fornece espaço entre o elemento e os elementos vizinhos. Ela é controlada pela propriedade margin.
+*/
+
+/*
+    +------------------------------------+
+    |              Margin                |
+    |  +------------------------------+  |
+    |  |            Border            |  |
+    |  |  +------------------------+  |  |
+    |  |  |        Padding         |  |  |
+    |  |  |  +--------------------+  |  |
+    |  |  |  |      Content       |  |  |
+    |  |  |  +--------------------+  |  |
+    |  |  +------------------------+  |  |
+    |  +------------------------------+  |
+    +------------------------------------+
+
+*/
+
+/* Estilizando uma caixa */
+.minha-caixa {
+    width: 200px; /* Largura da caixa */
+    height: 100px; /* Altura da caixa */
+    padding: 20px; /* Preenchimento interno */
+    border: 2px solid #000; /* Borda sólida de 2 pixels de largura */
+    margin: 10px; /* Margem externa */
+}

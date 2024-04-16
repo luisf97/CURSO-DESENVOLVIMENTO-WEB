@@ -1,3 +1,34 @@
 /*
     sombras, gradientes avancados e efeitos de texto
+    SOMBRAS
+
+    A propriedade box-shadow permite adicionar sombras aos elementos HTML. Você pode controlar a cor da sombra, o deslocamento 
+    (horizontal e vertical), o desfoque e o espalhamento.
 */
+.minha-classe {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra com deslocamento horizontal de 5px, deslocamento vertical de 5px, desfoque de 10px e cor rgba preta com 50% de transparência */
+}
+
+/*
+    2. Gradientes Avançados (linear-gradient e radial-gradient):
+    Você pode criar fundos gradientes usando as funções linear-gradient e radial-gradient. Isso permite criar efeitos de 
+    gradiente suaves entre duas ou mais cores.
+*/
+
+.minha-classe {
+    background: linear-gradient(to right, #ff8a00, #e52e71); /* Gradiente linear de laranja para rosa */
+}
+
+.minha-classe {
+    background: radial-gradient(circle, #ff8a00, #e52e71); /* Gradiente radial de laranja para rosa */
+}
+
+
+/*
+    3. Efeitos de Texto (text-shadow):
+    Assim como as sombras de caixa, você pode adicionar sombras a texto usando a propriedade text-shadow. Isso é útil para criar efeitos de texto mais visuais.
+*/
+
+.minha-classe {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto com deslocamento horizontal de 2px, deslocamento vertical de 2px, desfoque de 4px e cor rgba preta com 50% de transparência */
+}

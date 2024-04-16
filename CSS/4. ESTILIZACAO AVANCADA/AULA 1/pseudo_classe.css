@@ -1,0 +1,75 @@
+/*
+    As pseudo-classes em CSS são seletores especiais que permitem estilizar elementos com base em seu estado ou posição 
+    em relação ao documento. Elas são precedidas por dois pontos (:) e são usadas para adicionar estilos a elementos HTML 
+    em determinadas situações. Aqui estão algumas das pseudo-classes mais comuns e como elas são usadas:
+*/
+
+/*
+    1. :hover 
+
+     Esta pseudo-classe é acionada quando o cursor do mouse é movido sobre o elemento.
+*/
+
+button:hover {
+    background-color: #ff0000;
+}
+
+/*
+    2. :active
+
+    Esta pseudo-classe é acionada quando o elemento está ativo, ou seja, quando é clicado.
+*/
+
+button:active {
+    background-color: #00ff00;
+}
+
+/*
+    3. :focus:
+
+    Esta pseudo-classe é acionada quando o elemento recebe o foco, geralmente após ser clicado ou navegado para ele usando a tecla Tab.
+*/
+
+input:focus {
+    border-color: #0000ff;
+}
+
+/*
+    4. :nth-child():
+
+    Esta pseudo-classe permite selecionar elementos com base em sua posição relativa a um elemento pai, usando uma fórmula matemática.
+*/
+
+ul li:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+/*
+    5. :nth-of-type():
+
+    Similar a :nth-child(), mas seleciona elementos com base em seu tipo específico.
+*/
+
+ul li:nth-of-type(2n) {
+    color: #ff0000;
+}
+
+/*
+    6. :first-child, :last-child:
+
+    Estas pseudo-classes selecionam o primeiro e o último filho de um elemento pai, respectivamente.
+*/
+
+ul li:first-child {
+    font-weight: bold;
+}
+
+/*
+    7. :checked:
+
+    Esta pseudo-classe é usada para selecionar elementos de entrada do tipo "checkbox" ou "radio" que estão marcados.
+*/
+
+input[type="checkbox"]:checked + label {
+    color: #00ff00;
+}

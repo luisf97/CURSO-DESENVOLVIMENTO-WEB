@@ -1,0 +1,68 @@
+/*
+    Os pseudo-elementos em CSS são semelhantes às pseudo-classes, mas em vez de selecionar elementos com base em seu estado ou 
+    posição, eles permitem estilizar partes específicas de um elemento. Eles são representados por dois pontos duplos (::) e são
+    usados para adicionar estilos a partes específicas de um elemento HTML. Aqui estão alguns dos pseudo-elementos mais comuns
+    e como eles são usados:
+*/
+
+/*
+    1. ::before e ::after:
+
+    Estes pseudo-elementos permitem adicionar conteúdo antes ou depois do conteúdo real de um elemento. Eles são frequentemente 
+    usados para adicionar decoração ou ícones a elementos sem precisar alterar a marcação HTML.
+*/
+
+p::before {
+    content: "→ ";
+}
+
+p::after {
+    content: " ←";
+}
+
+/*
+    2. ::first-line e ::first-letter:
+
+    Estes pseudo-elementos permitem estilizar a primeira linha ou a primeira letra de um elemento de texto.
+*/
+
+p::first-line {
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-size: 150%;
+    color: #ff0000;
+}
+
+/*
+    3. ::selection:
+
+    Este pseudo-elemento é usado para estilizar o texto selecionado pelo usuário.
+*/
+
+::selection {
+    background-color: #ffff00;
+    color: #000000;
+}
+
+/*
+    4. ::placeholder:
+
+    Este pseudo-elemento é usado para estilizar o texto do espaço reservado (placeholder) em elementos de entrada de formulário.
+*/
+
+input::placeholder {
+    color: #999999;
+}
+
+/*
+    5. ::marker:
+
+    Este pseudo-elemento é usado para estilizar os marcadores de listas.
+*/
+
+ul::marker {
+    color: #ff0000;
+}
+

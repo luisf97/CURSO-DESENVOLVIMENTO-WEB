@@ -1,0 +1,42 @@
+/* 
+    1. COR DE FUNDO (BACKGROUND-COLOR)
+*/
+
+body {
+    background-color: #f0f0f0; /* Cor de fundo cinza claro */
+}
+
+/* 
+    2. IMAGEM DE FUNDO (background-image)
+*/
+
+body {
+    background-image: url('caminho/para/sua/imagem.jpg');
+}
+
+/* 
+    3. Repetição de Imagem de Fundo (background-repeat):
+
+    Você pode especificar se a imagem de fundo deve se repetir ou não usando a propriedade background-repeat.
+*/
+
+body {
+    background-image: url('caminho/para/sua/imagem.jpg');
+    background-repeat: no-repeat; /* A imagem de fundo não será repetida */
+}
+
+/* 
+    4. Posição da Imagem de Fundo (background-position):
+
+    Você pode definir a posição da imagem de fundo usando a propriedade background-position. Isso é útil quando você tem 
+    uma imagem de fundo grande e deseja controlar onde ela é exibida.
+*/
+
+/*
+    5. Tamanho da Imagem de Fundo (background-size):
+*/
+
+body {
+    background-image: url('caminho/para/sua/imagem.jpg');
+    background-size: cover; /* A imagem de fundo será redimensionada para cobrir todo o elemento */
+}

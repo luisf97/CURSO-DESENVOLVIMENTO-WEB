@@ -1,0 +1,67 @@
+/*
+    As transformações em CSS permitem modificar a aparência de elementos HTML, alterando sua posição, tamanho e forma. As transformações 
+    são usadas para aplicar efeitos visuais, como rotação, escala, translação e inclinação a elementos HTML, criando animações e 
+    layouts mais dinâmicos e interativos. Aqui estão algumas das transformações mais comuns e como elas são usadas:
+*/
+
+/*
+    1. Rotação (rotate):
+
+    A propriedade rotate é usada para rotacionar um elemento em torno de um ponto específico. O valor é especificado em graus.
+*/
+
+.minha-classe {
+    transform: rotate(45deg);
+}
+
+
+/*
+    2. Escala (scale):
+
+    A propriedade scale é usada para aumentar ou reduzir o tamanho de um elemento. Os valores especificados determinam a escala horizontal e vertical.
+*/
+
+.minha-classe {
+    transform: scale(1.5, 2);
+}
+
+/*
+    3. Translação (translate):
+
+    A propriedade translate é usada para mover um elemento de sua posição original. Os valores especificados determinam o deslocamento horizontal e vertical.
+*/
+
+.minha-classe {
+    transform: translate(50px, 100px);
+}
+
+/*
+    4. Inclinação (skew):
+
+    A propriedade skew é usada para inclinar um elemento ao longo dos eixos X e Y. Os valores especificados determinam o ângulo de inclinação em graus.
+*/
+
+.minha-classe {
+    transform: skew(30deg, 20deg);
+}
+
+/*
+    5. Matriz (matrix):
+
+    A propriedade matrix permite especificar uma transformação 2D personalizada usando uma matriz de seis valores.
+*/
+
+.minha-classe {
+    transform: matrix(1, 0.5, -0.5, 1, 0, 0);
+}
+
+/*
+    6. Origem da Transformação (transform-origin):
+
+    Esta propriedade permite especificar o ponto de origem da transformação. Por padrão, as transformações são aplicadas em relação ao 
+    centro do elemento, mas você pode alterar isso para qualquer ponto desejado.
+*/
+
+.minha-classe {
+    transform-origin: top left;
+}

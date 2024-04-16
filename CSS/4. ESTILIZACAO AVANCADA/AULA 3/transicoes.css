@@ -1,0 +1,39 @@
+/*
+    As transições em CSS permitem suavizar as mudanças de propriedades de estilo ao longo do tempo, 
+    criando efeitos de animação mais suaves e agradáveis. Elas são usadas para controlar como uma propriedade CSS muda de um
+     estado para outro ao longo de um período de tempo específico. Aqui está como você pode usar transições em CSS:
+*/
+
+.minha-classe {
+    transition: propriedade duração tipo de transição atraso;
+}
+
+/*
+    Propriedade: A propriedade CSS que será animada.
+    Duração: O tempo que a transição levará para ser concluída, especificado em segundos (s) ou milissegundos (ms).
+    Tipo de Transição: Define a forma como a transição será executada, como linear, ease, ease-in, ease-out, etc.
+    Atraso (opcional): O tempo que deve passar antes de a transição começar, especificado em segundos (s) ou milissegundos (ms).
+*/
+
+.minha-classe {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 1s ease-in-out 0.5s, height 0.5s linear;
+}
+
+.minha-classe:hover {
+    width: 200px;
+    height: 200px;
+}
+
+/*
+    Quando o mouse passa sobre o elemento com a classe .minha-classe, a largura e a altura mudam de seus valores originais para 200 pixels ao 
+    longo de 1 segundo (para a largura) e 0.5 segundos (para a altura), usando diferentes tipos de transição (ease-in-out e linear) e um atraso 
+    de 0.5 segundos para a largura.
+    Você também pode usar a propriedade transition abreviada para definir todas as propriedades de transição em uma única linha, separadas por 
+    vírgulas.
+
+    As transições em CSS são uma maneira poderosa de adicionar animações suaves aos seus elementos HTML, tornando sua interface mais dinâmica 
+    e atraente para os usuários.
+*/

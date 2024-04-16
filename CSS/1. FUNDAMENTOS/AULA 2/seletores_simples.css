@@ -1,0 +1,35 @@
+/* Seleciona todos os elementos <p> */
+p {
+    color: blue;
+}
+
+/* Seleciona todos os elementos com a classe "destaque" */
+.destaque {
+    font-weight: bold;
+}
+
+/* Seleciona o elemento com o ID "cabecalho" */
+#cabecalho {
+    font-size: 24px;
+}
+
+/* Seleciona todos os elementos <a> com o atributo "target" */
+a[target] {
+    color: red;
+}
+
+/* Seleciona o link que está sendo visitado */
+a:visited {
+    color: purple;
+}
+
+/* Seleciona o primeiro elemento <p> dentro de cada elemento <div> */
+div p:first-of-type {
+    font-style: italic;
+}
+
+/* Seleciona todos os elementos <p> dentro de um elemento com a classe "conteudo" */
+.conteudo p {
+    margin-bottom: 10px;
+}
+
