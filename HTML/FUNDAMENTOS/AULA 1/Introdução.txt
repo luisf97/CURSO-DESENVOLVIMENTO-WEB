@@ -1,0 +1,37 @@
+HTML: Linguagem de Marcação para a Web
+
+Origem e História:
+HTML, ou HyperText Markup Language (Linguagem de Marcação de Hipertexto), foi criado por Tim Berners-Lee em 1990 enquanto trabalhava no 
+CERN (Organização Europeia para a Pesquisa Nuclear) como uma maneira de compartilhar documentos científicos entre pesquisadores.
+
+Propósito e Objetivo:
+HTML é a linguagem padrão para criar páginas da web. Sua principal função é estruturar o conteúdo de uma página web, fornecendo marcação 
+semântica para diferentes elementos, como texto, imagens, links, vídeos e outros tipos de mídia.
+
+Estrutura Básica:
+Um documento HTML consiste em uma estrutura hierárquica de elementos, organizados em uma árvore de elementos. A estrutura básica de um 
+documento HTML inclui:
+
+<!DOCTYPE html>: Declaração que define o tipo de documento como HTML5.
+<html>: Elemento raiz que envolve todo o conteúdo da página.
+<head>: Contém metadados, como título da página, links para estilos CSS, scripts JavaScript e outras informações.
+<body>: Contém o conteúdo principal da página, como texto, imagens, links, formulários, etc.
+Elementos e Tags:
+HTML utiliza elementos e tags para estruturar o conteúdo da página. Um elemento é composto por uma tag de abertura, conteúdo e uma tag 
+de fechamento (se aplicável). Por exemplo, <p> é a tag de parágrafo usada para definir um parágrafo de texto.
+
+Semântica:
+Uma das principais características do HTML5 é o foco na semântica, ou seja, usar tags que descrevem o significado do conteúdo, 
+não apenas sua aparência visual. Exemplos incluem <header>, <nav>, <main>, <article>, <section>, <footer>, entre outros.
+
+Atributos:
+As tags HTML podem ter atributos, que fornecem informações adicionais sobre um elemento. Por exemplo, o atributo src especifica a 
+localização de uma imagem em uma tag <img>, enquanto o atributo href define o destino de um link em uma tag <a>.
+
+Validação:
+É importante que o código HTML de uma página seja válido de acordo com as especificações do W3C (World Wide Web Consortium). Ferramentas 
+online como o validador de HTML do W3C podem ajudar a garantir que o código HTML esteja correto e livre de erros.
+
+Conclusão:
+HTML é a base fundamental da web, permitindo que os desenvolvedores criem páginas estruturadas e semânticas que podem ser interpretadas e 
+exibidas pelos navegadores. É uma linguagem essencial para qualquer pessoa envolvida no desenvolvimento web e continua a evoluir com as demandas da internet moderna.

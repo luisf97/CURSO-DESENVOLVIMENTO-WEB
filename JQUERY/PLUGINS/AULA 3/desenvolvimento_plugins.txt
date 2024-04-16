@@ -1,0 +1,33 @@
+Desenvolver plugins para jQuery pode ser uma maneira poderosa de estender suas funcionalidades e compartilhá-las com a comunidade. Aqui estão 
+algumas diretrizes para o desenvolvimento de plugins eficazes:
+
+Identifique a necessidade: Antes de começar a desenvolver um plugin, identifique claramente o problema que ele resolverá e como ele se integrará
+ ao fluxo de trabalho dos desenvolvedores.
+
+Planeje a API: Projete uma API clara e consistente para o seu plugin. Isso inclui decidir quais opções e métodos o plugin oferecerá e como 
+eles serão chamados.
+
+Mantenha-o modular: Divida o código do plugin em módulos reutilizáveis e bem organizados. Isso facilitará a manutenção e a extensão do 
+plugin no futuro.
+
+Teste extensivamente: Teste o seu plugin em uma variedade de navegadores e dispositivos para garantir a compatibilidade. Use ferramentas
+ de teste automatizado sempre que possível.
+
+Documentação abrangente: Forneça uma documentação clara e abrangente para o seu plugin. Isso inclui instruções de instalação, exemplos 
+de uso e referência API.
+
+Faça-o flexível e personalizável: Permita que os usuários personalizem o comportamento do plugin por meio de opções de configuração.
+ Isso tornará o plugin mais útil para uma variedade de casos de uso.
+
+Considere o desempenho: Mantenha o código do plugin otimizado para o desempenho, especialmente se o plugin for usado em páginas da web 
+com muitos elementos.
+
+Consistência com o jQuery: Siga as convenções e práticas recomendadas do jQuery ao desenvolver seu plugin. Isso facilitará a integração 
+com outros plugins e bibliotecas jQuery.
+
+Licença adequada: Escolha uma licença adequada para o seu plugin e inclua uma declaração de licença clara em todos os arquivos do plugin.
+
+Contribuição e suporte: Esteja aberto a contribuições da comunidade e forneça suporte aos usuários do seu plugin sempre que possível.
+
+Ao seguir essas diretrizes, você pode criar plugins jQuery poderosos e de alta qualidade que serão úteis para desenvolvedores de todo o mundo.
+ Lembre-se de compartilhar seu plugin em repositórios como GitHub e npm para que outros desenvolvedores possam encontrá-lo facilmente e contribuir com ele.

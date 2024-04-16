@@ -1,0 +1,29 @@
+CSS: Uma Breve História e Propósito
+
+Origens:
+O CSS, ou Cascading Style Sheets (Folhas de Estilo em Cascata), foi proposto pela primeira vez por Håkon Wium Lie e Bert Bos em 1994, enquanto 
+trabalhavam no CERN (Organização Europeia para a Pesquisa Nuclear). Eles publicaram uma proposta para separar a estrutura e o conteúdo de documentos
+ HTML da sua apresentação visual.
+
+Objetivo:
+O principal objetivo do CSS é separar o conteúdo estrutural (fornecido pelo HTML) da apresentação visual (definida pelo CSS) em páginas da web. Isso
+ permite uma maior flexibilidade e controle sobre o design e layout das páginas, facilitando a manutenção, atualização e consistência visual em todo o site.
+
+Funcionamento:
+O CSS funciona aplicando regras de estilo a elementos HTML usando seletores e declarações de estilo. Os estilos definidos em um arquivo CSS 
+são aplicados a elementos correspondentes em um documento HTML, permitindo controlar características como cores, fontes, layout, espaçamento 
+e muito mais.
+
+Benefícios:
+
+Separação de preocupações: Ao separar a estrutura do conteúdo da apresentação visual, o CSS facilita a manutenção e atualização de sites,
+ pois as alterações de estilo podem ser feitas de forma centralizada em arquivos CSS.
+
+Flexibilidade de design: O CSS oferece uma ampla gama de propriedades e recursos para criar designs visualmente atraentes e responsivos, 
+adaptados a diferentes dispositivos e tamanhos de tela.
+
+Eficiência de carregamento: Ao evitar a repetição de estilos em várias páginas, o CSS ajuda a reduzir o tamanho dos arquivos e o tempo de 
+carregamento das páginas, melhorando a experiência do usuário.
+
+Em resumo, o CSS é uma linguagem fundamental para o design e apresentação de páginas da web, permitindo criar layouts visualmente atraentes, 
+consistentes e responsivos em uma ampla variedade de dispositivos e navegadores.
